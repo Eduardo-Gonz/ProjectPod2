@@ -1,0 +1,52 @@
+#header{
+  background-image: url("Images/hugging-couple.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-fluid {
+  padding: 3% 8%;
+  height: 700px;
+}
+
+/* Navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Galada", cursive;
+  font-size: 3.5rem;
+  color: #ffacb7;
+}
+
+.navbar-nav {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #cc919a;
+}
+
+.nav-link:hover {
+  color: #ffacb7;
+}
+
+.fa-bars{
+  color: #ffacb7;
+}
+
+/* Header Section */
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  font-size: 3.5rem;
+  color: #003366;
+}
+
+.title-img {
+  text-align: right;
+}

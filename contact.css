@@ -1,0 +1,136 @@
+
+h2{
+    font-family: 'Galada', cursive;
+    text-align: center;
+    
+}
+
+main{
+
+    font-family: Georgia, 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+
+}
+
+.contactinfo{
+
+    color: #d38f19;
+    background-color:#ffe0ac;
+    position: relative;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 130%;
+
+}
+
+.form{
+
+    color: #595e69;
+    position: relative;
+    padding: 5rem;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #ffe0ac;
+    border-radius: 4px;
+  }
+
+  input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #ffe0ac;
+    border-radius: 4px;
+  }
+
+  input[type=text]:focus {
+    background-color: #ffe0ac;
+  }
+
+  input[type=email]:focus {
+    background-color: #ffe0ac;
+  }
+
+  textarea{
+
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffe0ac;
+    border-radius: 4px;
+
+  }
+
+p{
+    word-spacing: normal;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button {
+    background-color: #ffacb7;
+    border: none;
+    color: white;
+    padding: 15px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 4px;
+  }
+
+  .button:hover {
+      background-color: #ffe0ac ;
+  }
+
+
+  .nav-link{
+      font-family: 'Josefin Sans', sans-serif; 
+  }
+  .navbar-brand{
+    font-family: 'Galada', cursive;
+
+  }
+
+  .nav-link:hover{
+    color: #ca8918 ;
+  }
+
+
+.box{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    font-family: 'Galada', cursive;
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 30%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
