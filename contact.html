@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type = "text/css" href = "contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+</head>
+<body>
+    
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Lovepoint</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Subscriptions</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Q&A</a>
+                  </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+            </div>
+        </nav>
+
+        <div class="box">
+            <img src="couple.jpg" width="100%">
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="contactinfo">
+
+
+            <br><br><br><br><br>
+            <h2>
+                <strong>Contact Us</strong>
+            </h2> <br><br>
+
+            <p>450 Country Club Road #240, </p> <p>Eugene, Oregon 97401-6053</p><br>
+
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>
+
+              <br>
+            <p>contactus@lovepoint.com</p><br>
+
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+              </svg>
+            <p>129-203-3049</p>
+
+            <i class="far fa-thumbs-up"></i>
+
+
+        </div>
+
+
+        <div class="form">
+            
+            <label for= "Name"> Name*</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label id= "fname" for="fname">First Name</label> <br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label id= "lname" for="lname">Last Name</label><br><br>
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label>Do you want to sign up for our emails?*</label><br><br>
+            <input type="radio" id="yes" name="yesorno" value="yes" required>
+            <label for="yes">Yes</label> <br><br>
+            <input type="radio" id="no" name="yesorno" value="no">
+            <label for ="no">No</label><br><br>
+            <label for = "category"> I'm interested in help with...* </label><br><br>
+            <input class= "radio" type="radio" name="category" value="App Troubleshooting" required>
+            <label>App Troubleshooting</label><br><br>
+            <input class= "radio" type="radio" name="category" value="Security Report">
+            <label>Security Report</label><br><br>
+            <input class= "radio" type="radio" name="category" value="General Questions">
+            <label>General</label><br><br>
+            <input class= "radio" type="radio" name="category" value="Other Concerns">
+            <label>Other Concerns</label><br><br>
+            <label>Message*</label> <br>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+             <br><br>
+            <input class="button" type="submit" value="Send">
+        </div>
+
+    </main>
+
+
+
+
+</body>
+</html>
+
+
+
