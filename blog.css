@@ -1,0 +1,40 @@
+
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #6886c5;
+  }
+  
+  .blog-header-logo {
+    font-family: 'Galada', cursive;
+    font-size: 2.25rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+
+  /*
+   * Blog posts
+   */
+  .blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #6886c5;
+  }
+  
