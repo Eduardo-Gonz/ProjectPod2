@@ -1,12 +1,24 @@
-#header{
-  background-image: url("Images/hugging-couple.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
 .container-fluid {
   padding: 3% 8%;
   height: 700px;
+  width: 100%;
+}
+
+.container-main {
+  padding: 7% 10%;
+  width: 100%;
+}
+
+.content-img {
+  width: 50%;
+  border-radius: 100%;
+}
+
+.main-text {
+  padding-top: 5px;
+  margin-right: 50px;
+  line-height: 2rem;
+  font-size: 1.5rem;
 }
 
 /* Navbar */
@@ -18,6 +30,10 @@
   font-family: "Galada", cursive;
   font-size: 3.5rem;
   color: #ffacb7;
+}
+
+.navbar-brand:hover {
+  color: #cc919a;
 }
 
 .navbar-nav {
@@ -38,15 +54,86 @@
 }
 
 /* Header Section */
-
-.header-title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  line-height: 1.2em;
-  font-size: 3.5rem;
-  color: #003366;
+#header{
+  background-image: url("Images/hugging-couple.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
 }
 
-.title-img {
-  text-align: right;
+.header-section {
+  padding: 5% 8%;
+  text-align: center;
+  color: #ffff;
+}
+
+.header-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.header-sub {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+/* About Section */
+
+.about-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #6886c5;
+}
+
+.about-img-container {
+  text-align: center;
+}
+
+/* Features  */
+#feature-algorithm {
+  background-color: #6886c5;;
+  color: white;
+  width: 100%;
+}
+
+.algorithm-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.feature-img {
+  margin-left: 15%;
+  width: 42%;
+  height: 90%;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 857px) {
+
+  .container-main {
+    padding-top: 10%;
+  }
+
+  .feature-img {
+    margin-left: 0;
+    width: 25%;
+    height: 100%;
+  }
+
+  .header-title {
+    font-size: 4rem;
+  }
+
+  .about-img-container {
+    display: none;
+  }
+
+  .algorithm-title {
+    font-size: 3rem;
+    padding-top: 8%;
+  }
 }
