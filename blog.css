@@ -1,19 +1,58 @@
 
 
-.blog-header {
+  .blog-header {
     line-height: 1;
     border-bottom: 1px solid #6886c5;
   }
-  
+
+  .button:hover {
+    background-color:#ffe0ac ;
+    }
+
+  .navbar-expand-xl{
+        position: sticky;
+        }
+
+  .navbar{
+    padding: 0 4.5rem;
+    background-color: white;
+  }
+  .navbar-brand {
+    font-family: 'Galada', cursive;
+    font-size: 3.5rem;
+    color: #FFACB7;
+  }
+  .navbar-brand:hover {
+    color: #CC919A;
+  }
+  .navbar-nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    color: #CC919A;
+  }
+  .nav-link:hover {
+    color: #FFACB7;
+  }
+  .fa-bars{
+    color: #FFACB7;
+  }
+
   .blog-header-logo {
     font-family: 'Galada', cursive;
     font-size: 2.25rem;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Josefin Sans', sans-serif;
   }
-  
+  .jumbotron-fluid{
+      background-color: #6886c5;
+  }
+  .continue{
+      color: #f9f9f9;
+  }
   .display-4 {
     font-size: 2.5rem;
   }
@@ -27,7 +66,7 @@
    * Blog posts
    */
   .blog-post {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
   .blog-post-title {
     margin-bottom: .25rem;
@@ -38,3 +77,39 @@
     color: #6886c5;
   }
   
+  .socials a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #ffacb7;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    transition: 0.4s;
+    font-size: 24px;
+    align-items: center;
+    position:relative; 
+  
+  }
+  
+  .socials a:hover{
+    background:#f77586;
+  }
+  
+  .socials a i{
+  transition: 0.4s all;
+  
+  }
+  
+  .socials a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+  
+  }
+  @media only screen and (max-width: 990px) {
+    .navbar {
+      padding: 0 10%;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+    }
+}
