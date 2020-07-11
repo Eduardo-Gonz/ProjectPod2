@@ -1,6 +1,6 @@
 .container-fluid {
   padding: 3% 8%;
-  height: 700px;
+  height: 650px;
   width: 100%;
 }
 
@@ -23,7 +23,8 @@
 
 /* Navbar */
 .navbar{
-  padding: 0 0 4.5rem;
+  padding: 0 4.5rem;
+  background-color: white;
 }
 
 .navbar-brand {
@@ -59,11 +60,11 @@
   background-size: cover;
   background-position: center center;
   width: 100%;
+  text-align: center;
 }
 
 .header-section {
-  padding: 5% 8%;
-  text-align: center;
+  margin-top: 200px;
   color: #ffff;
 }
 
@@ -117,19 +118,77 @@
   color: #6886c5;
 }
 
+#best-app .feature-img {
+  width: 40%;
+  height: 93%;
+}
+
+/* Footer Section */
+footer {
+  color: #ffacb7;
+}
+
+.socials a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #ffacb7;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  transition: 0.4s;
+  font-size: 24px;
+  align-items: center;
+  position: relative;
+  margin-left: 8px;
+
+}
+
+.socials a:hover{
+  background:#f77586;
+}
+
+.socials a i{
+transition: 0.4s all;
+
+}
+
+.socials a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
     .feature-img {
-      height: 60%;
+      width: 45%;
+      height: 70%;
+    }
+
+    #best-app .feature-img {
+      width: 50%;
+      height: 85%;
     }
 }
 
 /* Tablet and Mobile */
-@media only screen and (max-width: 857px) {
+@media only screen and (max-width: 990px) {
+
+  .navbar {
+    padding: 0 10%;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
 
   .container-main {
     padding-top: 10%;
+  }
+
+  .about-title {
+    font-size: 4rem;
   }
 
   .feature-img {
@@ -150,4 +209,10 @@
     font-size: 3rem;
     padding-top: 8%;
   }
+
+  #best-app .feature-img {
+    width: 25%;
+    height: 100%;
+  }
+
 }
