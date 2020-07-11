@@ -6,10 +6,24 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f5a8a8;
+}
+
 h3{
     font-family: 'Galada', cursive;
     text-align: center;
     color: #f9f9f9;
+}
+
+h6{
+    font-family: 'Galada', cursive;
+    text-align: center;
+}
+
+label{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .box1 {
@@ -25,11 +39,32 @@ h3{
 }
 
 .box3 {
-    border: 3px solid #aacfcf;;
+    border: 3px solid #aacfcf;
     border-radius: 7px;
     background-color: #6886c5;
 }
 
 #header{
-    background-image:none
+    background-image:none;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+}
+
+.centerForm{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding: 0 10%;
+  }
+  .navbar-brand {
+    font-size: 2rem;
   }

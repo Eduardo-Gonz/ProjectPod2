@@ -11,30 +11,29 @@
 
 /* Navbar */
 .navbar{
-  padding: 0 0 4.5rem;
+  padding: 0 4.5rem;
+  background-color: white;
 }
-
 .navbar-brand {
-  font-family: "Galada", cursive;
+  font-family: “Galada”, cursive;
   font-size: 3.5rem;
-  color: #ffacb7;
+  color: #FFACB7;
 }
-
+.navbar-brand:hover {
+  color: #CC919A;
+}
 .navbar-nav {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: “Josefin Sans”, sans-serif;
   font-size: 1.5rem;
 }
-
 .nav-link {
-  color: #cc919a;
+  color: #CC919A;
 }
-
 .nav-link:hover {
-  color: #ffacb7;
+  color: #FFACB7;
 }
-
 .fa-bars{
-  color: #ffacb7;
+  color: #FFACB7;
 }
 
 /* Header Section */
