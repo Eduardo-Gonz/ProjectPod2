@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 
+    <!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/24f262ca21.js" crossorigin="anonymous"></script>
+
     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -21,76 +24,67 @@
     
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <section id="header">
+        <div class="container-fluid">
+          <!-- Navbar -->
+          <nav class="navbar navbar-expand-xl sticky-top">
             <a class="navbar-brand" href="#">Lovepoint</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Subscriptions</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Q&A</a>
-                  </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href=" #">Subscriptions</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href=" #">Blog</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href=" #">Q & A</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href=" #">Contact Us</a>
+              </li>
+    
+            </ul>
             </div>
-        </nav>
+          </nav>
 
         <div class="box">
-            <img src="couple.jpg" width="100%">
+          <strong><p>Get in Touch</p><br></strong>
+              <strong><p>We'd love to hear from you.</p></strong>
         </div>
 
     </header>
 
     <main>
 
-        <div class="contactinfo">
-
-
-            <br><br><br><br><br>
-            <h2>
-                <strong>Contact Us</strong>
-            </h2> <br><br>
-
-            <p>450 Country Club Road #240, </p> <p>Eugene, Oregon 97401-6053</p><br>
-
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-              </svg>
-
-              <br>
-            <p>contactus@lovepoint.com</p><br>
-
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-              </svg>
-            <p>129-203-3049</p>
-
-            <i class="far fa-thumbs-up"></i>
-
-
-        </div>
-
 
         <div class="form">
             
             <label for= "Name"> Name*</label><br>
-            <input type="text" id="fname" name="fname" required><br>
-            <label id= "fname" for="fname">First Name</label> <br>
-            <input type="text" id="lname" name="lname" required><br>
-            <label id= "lname" for="lname">Last Name</label><br><br>
+
+
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+
+            <br>
             <label for="email">Email*</label><br>
             <input type="email" id="email" name="email"><br><br>
             <label>Do you want to sign up for our emails?*</label><br><br>
@@ -108,14 +102,92 @@
             <input class= "radio" type="radio" name="category" value="Other Concerns">
             <label>Other Concerns</label><br><br>
             <label>Message*</label> <br>
-            <textarea name="message" rows="10" cols="30"></textarea><br>
+            <textarea class="message" name="message" rows="10" cols="30" placeholder="How can we assist you today?" required></textarea><br>
              <br><br>
             <input class="button" type="submit" value="Send">
         </div>
 
     </main>
 
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Lovepoint</h5>
+        <p>Our dating application strives to POINT each individual to the right match.</p>
+        <p> Let us POINT you to your perfect match! </p>
+
+      </div>
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> 450 Country Club Road #240, Eugene, Oregon 97401</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> contactus@lovepoint.com</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+        <!-- Social buttons -->
+<div class="socials">
+  <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+  <a href="#"><i class="fab fa-facebook-f"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></i></a>
+  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+  <a href="#"><i class="fab fa-youtube"></i></a><br>
+
+
+</div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
+
+
+    <script type="text/javascript" src="index.js"></script></script>
 
 
 </body>
