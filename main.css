@@ -99,7 +99,7 @@
   width: 100%;
 }
 
-.algorithm-title {
+.feature-title {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 4rem;
@@ -111,7 +111,21 @@
   height: 90%;
 }
 
+/* Voted the Best Section */
+
+#best-app {
+  color: #6886c5;
+}
+
 /* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    .feature-img {
+      height: 60%;
+    }
+}
+
+/* Tablet and Mobile */
 @media only screen and (max-width: 857px) {
 
   .container-main {
@@ -132,7 +146,7 @@
     display: none;
   }
 
-  .algorithm-title {
+  .feature-title {
     font-size: 3rem;
     padding-top: 8%;
   }
