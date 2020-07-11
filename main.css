@@ -27,7 +27,7 @@
   background-color: white;
 }
 .navbar-brand {
-  font-family: “Galada”, cursive;
+  font-family: 'Galada', cursive;
   font-size: 3.5rem;
   color: #FFACB7;
 }
@@ -125,9 +125,6 @@
 }
 
 /* Footer Section */
-footer {
-  color: #ffacb7;
-}
 
 .socials a{
   display: inline-flex;
