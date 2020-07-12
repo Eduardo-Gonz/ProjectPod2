@@ -1,3 +1,35 @@
+.container-fluid {
+    padding: 3% 8%;
+    height: 700px;
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 4.5rem;
+    background-color: white;
+  }
+  .navbar-brand {
+    font-family: 'Galada', cursive;
+    font-size: 3.5rem;
+    color: #FFACB7;
+  }
+  .navbar-brand:hover {
+    color: #CC919A;
+  }
+  .navbar-nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    color: #CC919A;
+  }
+  .nav-link:hover {
+    color: #FFACB7;
+  }
+  .fa-bars{
+    color: #FFACB7;
+  }
+
 body {
     background-color: #f3e1e1;
   }
@@ -64,7 +96,7 @@ label{
 
 .navbar {
     padding: 0 10%;
-  }
+}
   .navbar-brand {
     font-size: 2rem;
   }
