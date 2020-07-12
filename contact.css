@@ -183,18 +183,14 @@ transition: 0.4s all;
 
 .row{
 
-  color: #ffacb7;
   font-family: 'Josefin Sans', sans-serif;
   -webkit-text-size-adjust: 100%;
-  font-size: 130%;
 
 }
 
 h5{
-  font-family: 'Galada', cursive;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
-  font-size: 150%;
-  color:#ff93a2;
 }
 
 /* Footer css */
