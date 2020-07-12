@@ -1,6 +1,6 @@
 .container-fluid {
   padding: 3% 8%;
-  height: 700px;
+  height: 650px;
   width: 100%;
 }
 
@@ -23,13 +23,16 @@
 
 /* Navbar */
 .navbar{
-  padding: 0 0 4.5rem;
+  padding: 0 4.5rem;
+  background-color: white;
 }
-
 .navbar-brand {
-  font-family: "Galada", cursive;
+  font-family: 'Galada', cursive;
   font-size: 3.5rem;
-  color: #ffacb7;
+  color: #FFACB7;
+}
+.navbar-brand:hover {
+  color: #CC919A;
 }
 
 .navbar-brand:hover {
@@ -37,20 +40,17 @@
 }
 
 .navbar-nav {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: “Josefin Sans”, sans-serif;
   font-size: 1.5rem;
 }
-
 .nav-link {
-  color: #cc919a;
+  color: #CC919A;
 }
-
 .nav-link:hover {
-  color: #ffacb7;
+  color: #FFACB7;
 }
-
 .fa-bars{
-  color: #ffacb7;
+  color: #FFACB7;
 }
 
 /* Header Section */
@@ -59,11 +59,11 @@
   background-size: cover;
   background-position: center center;
   width: 100%;
+  text-align: center;
 }
 
 .header-section {
-  padding: 5% 8%;
-  text-align: center;
+  margin-top: 200px;
   color: #ffff;
 }
 
@@ -92,14 +92,16 @@
   text-align: center;
 }
 
-/* Features  */
+/* Feature Section  */
+
+/* algorithm feature */
 #feature-algorithm {
   background-color: #6886c5;;
   color: white;
   width: 100%;
 }
 
-.algorithm-title {
+.feature-title {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 4rem;
@@ -111,11 +113,80 @@
   height: 90%;
 }
 
+/* Voted the Best Section */
+
+#best-app {
+  color: #6886c5;
+}
+
+#best-app .feature-img {
+  width: 40%;
+  height: 93%;
+}
+
+/* Footer Section */
+
+.socials a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #ffacb7;
+  color: white;
+  border-radius: 50%;
+  justify-content: center;
+  transition: 0.4s;
+  font-size: 24px;
+  align-items: center;
+  position: relative;
+  margin-left: 8px;
+
+}
+
+.socials a:hover{
+  background:#f77586;
+}
+
+.socials a i{
+transition: 0.4s all;
+
+}
+
+.socials a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+
+}
+
 /* Media Queries */
-@media only screen and (max-width: 857px) {
+
+@media only screen and (max-width: 1024px) {
+    .feature-img {
+      width: 45%;
+      height: 70%;
+    }
+
+    #best-app .feature-img {
+      width: 50%;
+      height: 85%;
+    }
+}
+
+/* Tablet and Mobile */
+@media only screen and (max-width: 990px) {
+
+  .navbar {
+    padding: 0 10%;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
 
   .container-main {
     padding-top: 10%;
+  }
+
+  .about-title {
+    font-size: 4rem;
   }
 
   .feature-img {
@@ -132,8 +203,14 @@
     display: none;
   }
 
-  .algorithm-title {
+  .feature-title {
     font-size: 3rem;
     padding-top: 8%;
   }
+
+  #best-app .feature-img {
+    width: 25%;
+    height: 100%;
+  }
+
 }
