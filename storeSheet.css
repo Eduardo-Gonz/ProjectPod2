@@ -103,3 +103,35 @@ label{
       font-size: 2rem;
     }
 }
+
+/* Footer Section */
+
+.socials a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #ffacb7;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    transition: 0.4s;
+    font-size: 24px;
+    align-items: center;
+    position: relative;
+    margin-left: 8px;
+  
+  }
+  
+  .socials a:hover{
+    background:#f77586;
+  }
+  
+  .socials a i{
+  transition: 0.4s all;
+  
+  }
+  
+  .socials a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+  
+  }
