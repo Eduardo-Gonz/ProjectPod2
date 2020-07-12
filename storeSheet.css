@@ -94,9 +94,12 @@ label{
     justify-content: center;
 }
 
-.navbar {
-    padding: 0 10%;
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+      padding: 0 10%;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+    }
 }
-  .navbar-brand {
-    font-size: 2rem;
-  }
