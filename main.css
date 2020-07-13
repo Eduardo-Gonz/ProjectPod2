@@ -64,6 +64,10 @@
 
 .header-section {
   margin-top: 200px;
+  color: #6886c5;
+}
+
+.header-sub {
   color: #ffff;
 }
 
@@ -125,7 +129,9 @@
 }
 
 /* Footer Section */
-
+footer {
+  font-family: 'Josefin Sans', sans-serif;
+}
 .socials a{
   display: inline-flex;
   width: 40px;
@@ -161,7 +167,7 @@ transition: 0.4s all;
 @media only screen and (max-width: 1024px) {
     .feature-img {
       width: 45%;
-      height: 70%;
+      height: 65%;
     }
 
     #best-app .feature-img {
@@ -213,4 +219,33 @@ transition: 0.4s all;
     height: 100%;
   }
 
+}
+/* Larger Displays */
+@media only screen and (min-width: 2560px) {
+    .feature-img {
+      width: 45%;
+      height: 90%;
+    }
+
+    #best-app .feature-img {
+      width: 40%;
+      height: 90%;
+    }
+
+    .about-title {
+      font-size: 7.5rem;
+    }
+
+    .feature-title {
+      font-size: 7.5rem;
+    }
+
+    .main-text {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+
+    footer p{
+      font-size: 1.3rem;
+    }
 }
