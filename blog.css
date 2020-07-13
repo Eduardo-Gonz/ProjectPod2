@@ -1,5 +1,4 @@
 
-
   .blog-header {
     line-height: 1;
     border-bottom: 1px solid #6886c5;
@@ -75,7 +74,7 @@
     font-size: 2.5rem;
     }
 
-  @media (min-width: 768px) {
+  @media (max-width: 990px) {
     .display-4 {
     font-size: 3rem;
     }
@@ -85,7 +84,7 @@
     font-family: 'Josefin Sans', sans-serif;
     }
 
-  /** Blog posts */
+  /* Blog posts */
 
   .blog-post {
     margin-bottom: 2rem;
@@ -103,6 +102,8 @@
     color: #6886c5;
     font-family: 'Josefin Sans', sans-serif;
     }
+
+  /* Footer Section */
 
   .c2{
     font-family: 'Josefin Sans', sans-serif;
@@ -138,11 +139,11 @@
     transform: scale(1.6) rotate(25deg);
     }
 
-  @media only screen and (max-width: 990px) {
-    .navbar {
+ @media only screen and (max-width: 990px){
+  .navbar {
     padding: 0 10%;
     }
-    .navbar-brand {
+  .navbar-brand {
     font-size: 2rem;
     }
-}
+  }
